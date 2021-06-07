@@ -1,0 +1,19 @@
+#button1{
+   border-radius: 20px;
+   background-color: wheat;
+   z-index: 99999;
+   height: 50px;
+   width: 80px;
+   font-size: 18px;
+}
+
+#button2{
+    border-radius: 20px;
+    background-color: orange;
+    z-index: 99999;
+    height: 50px;
+    width: 80px;
+    font-size: 18px;
+}
+
+

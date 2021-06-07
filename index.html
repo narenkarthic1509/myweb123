@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> project 106  </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    </head>
+    <body class="bg-info">
+    <div class="container">
+    <h2>
+      Project 106
+      <span>&#128400;</span>
+      <span>&#128077;</span>
+      <span>&#128078;</span>
+      <span>&#128080;</span>
+      <span>&#128406;</span>
+      <span>&#129304;</span>
+      <span>&#128076;</span>              
+    </h2>
+    <hr>
+    <br><br>
+    
+        <span><div id="camera"></div>
+        <div id="result"></div></span>
+        
+
+        <div id="prediction-div">
+        <h4> prediction 1 </h4>
+        <h3 id="prediction-object"></h3> 
+        <span id="prediction-gesture"></span>
+        </div>
+
+    <div class="row">
+       <button id="button1" onclick="takeSnapshot();">Capture</button>
+       <button id="button2" onclick="check();">Identify</button>
+    </div>
+    
+
+
+    </div>
+    </body>
+    <script src="main.js"></script>
+</html>
